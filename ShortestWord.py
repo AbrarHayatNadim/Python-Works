@@ -1,3 +1,6 @@
 def find_short(s):
-    l = ''
-    return l # l: shortest word length
+    x = s.split(" ")
+    y =  min(x, key=len)
+    return len(y)
+        
+print(find_short('gitrrrrrrr pushrrrr originrrrr main'))
