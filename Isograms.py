@@ -7,4 +7,4 @@ def is_isogram(string):
     
     
         
-print(is_isogram("Aadi"))
+print(is_isogram("di"))
